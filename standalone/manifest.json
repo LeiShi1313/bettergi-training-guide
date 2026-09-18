@@ -1,0 +1,20 @@
+{
+  "manifest_version": 1,
+  "name": "提升指南只读器",
+  "version": "0.1.0",
+  "bgi_version": "0.64.0",
+  "description": "只读取并保存原神提升指南的培养目标与识别证据，不读取背包、不消耗树脂、不执行任务。",
+  "authors": [
+    {
+      "name": "LeiShi1313",
+      "links": "https://github.com/LeiShi1313/bettergi-training-guide"
+    }
+  ],
+  "main": "main.js",
+  "saved_files": [
+    "collection.json",
+    "preview.json",
+    "collection-failure.png",
+    "raw/"
+  ]
+}

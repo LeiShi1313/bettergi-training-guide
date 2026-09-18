@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "https://github.com/LeiShi1313/GenshinCultivationPlanner",
+    "commit": "1177e821f8d3b1fffe354acfbe703361c94ec4e4",
+    "path": "guide-reader"
+  },
+  "contract": {
+    "module": "guide-reader/index.js",
+    "export": "readTrainingGuideSnapshot",
+    "returns": "{ collection, preview }"
+  },
+  "generator": {
+    "sourceCommit": "562e5c3eae1056ab8df54078cd6f406d1d7060ab",
+    "path": "tools/build-guide-identities.mjs",
+    "dependency": "genshin-db@5.2.13",
+    "dependencyCommit": "8b15995fa220c88a4d0d7ffe1e21b041d0b32588",
+    "sha256": "54cb93a2da90834c2fe5b63d18ead69fb7d36903a66e0e419c0a0745ec49b6f3"
+  },
+  "files": {
+    "index.js": "1aba90fe7e62599e1a506f1f8bc92406c652034c76aa4b4c47b05ab37f38a03e",
+    "assets/guide_level_scroll_absent.png": "2d55ff80a66da93bca3317138578879aa1c5d2705cc533e76786131b1b2e416b",
+    "assets/guide_material_source_pin.png": "45d2c290a1cec236f12c59bc550c08fdf416eaa5a23702001537154ac02a99c2",
+    "assets/guide_scroll_absent.png": "2aaadbe9653b71d3018ba8815f3a3fedf6763f92dca36d3880c39d1c5321e0d5",
+    "assets/guide_scroll_thumb_bottom.png": "2fda09dc01e5e257fdff6c53bea5f8ef3975e46a6b0319c6e952e6c1d39c0f78",
+    "assets/guide_scroll_thumb_end.png": "cbe64c9bd360a57df173418c7e80eaee9e5aa553d54043ab2bcc5130201d767b",
+    "assets/guide_scroll_thumb_top.png": "91bf18a3e4810dec0f2158aaade667627634ad6d012d49895b200111ecb42bbc",
+    "assets/guide_talent_card_arrow.png": "1c73eda632612915883495a1ec3ee3e3ea9d1d4d02b50b22ec792b59cf43ce5e",
+    "data/guide-identities.json": "b07f67af01814e10804529dd457b157be10c90b302988aba236ef48c5e7168c8",
+    "data/LICENSE.bettergi": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "data/LICENSE.genshin-db": "9b4edf56612dd31a97ade0d2d408154eb2e3dcf620f5b832fefec036ba9b50e1"
+  }
+}
