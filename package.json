@@ -1,0 +1,21 @@
+{
+  "name": "bettergi-training-guide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reusable read-only BetterGI Training Guide reader",
+  "license": "GPL-3.0-only",
+  "repository": "github:LeiShi1313/bettergi-training-guide",
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "build:guide-identities": "node tools/build-guide-identities.mjs",
+    "sync:consumer": "node tools/sync-consumer.mjs"
+  },
+  "devDependencies": {
+    "genshin-db": "5.2.13"
+  }
+}
